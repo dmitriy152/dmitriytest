@@ -22,7 +22,7 @@ $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, 
 $mail->Port = 465; // TCP port to connect to / этот порт может отличаться у других провайдеров
 
 $mail->setFrom('dmitriyphpmailer@mail.ru'); // от кого будет уходить письмо?
-$mail->addAddress('giwafo2263@ippals.com');     // Кому будет уходить письмо 
+$mail->addAddress('order@salesgenerator.pro');     // Кому будет уходить письмо 
 //$mail->addAddress('ellen@example.com');               // Name is optional
 //$mail->addReplyTo('info@example.com', 'Information');
 //$mail->addCC('cc@example.com');
